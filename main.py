@@ -85,7 +85,10 @@ def game():
                 found = True
 
         if not found:
+            print("")
+            print("You failed")
             attempts -= 1
+            print("Remaining attempts: ", attempts)
 
         if "_" not in spaces:
             os.system("cls")
@@ -101,4 +104,5 @@ def game():
 
 
 if __name__ == '__main__':
+    print("You have 6 attempts")
     game()
