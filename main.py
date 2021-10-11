@@ -1,7 +1,6 @@
 import os
 import random
 
-
 def game():
     game_art = ['''
   +---+
