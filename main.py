@@ -1,6 +1,7 @@
 import os
 import random
 
+
 def game():
     game_art = ['''
   +---+
@@ -63,7 +64,12 @@ def game():
         "angularjs",
         "react",
         "nextjs",
-        "nestjs"
+        "nestjs",
+        "flask",
+        "aspnet",
+        "meteor",
+        "emberjs",
+        "nodejs"
     ]
 
     word = random.choice(frameworks)
