@@ -88,6 +88,9 @@ def game():
         for idx, character in enumerate(word):
             if character == letter:
                 spaces[idx] = letter
+                print("")
+                print("Nice one, keep it up")
+                print("")
                 found = True
 
         if not found:
